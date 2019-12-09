@@ -1,21 +1,25 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { Fragment } from "react";
+import { Helmet } from 'react-helmet';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Hero from '../components/Home/Hero';
+import KnowMore from '../components/Home/KnowMore';
+import AvailableOn from '../components/Home/AvailableOn';
+
+import ClipSVG from '../../assets/clip.svg'
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  <Fragment>
+    <Helmet>
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"></link>
+    </Helmet>
+    <div className="yellow--bg tc pt5 pb4" style={{ clipPath: "url(#tsClipPath)" }}>
+      <Hero />
+      <KnowMore />
+      <AvailableOn />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+    <ClipSVG />
+  </Fragment>
 )
 
-export default IndexPage
+export default IndexPage;
