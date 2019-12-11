@@ -1,13 +1,14 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "eluminapp",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "",
+  "version": "1.0.0",
+  "author": "dalvaradotey <d.alvaradotey@gmail.com>",
   "dependencies": {
     "@sweetalert/with-react": "^0.1.1",
     "airtable": "^0.8.1",
     "dotenv": "^8.2.0",
+    "formik": "^2.0.7",
     "gatsby": "^2.18.4",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-manifest": "^2.2.30",
@@ -24,7 +25,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "sweetalert": "^2.1.2"
+    "sweetalert": "^2.1.2",
+    "yup": "^0.27.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1",
@@ -32,7 +34,7 @@
     "tachyons-sass": "^4.9.5"
   },
   "keywords": [
-    "gatsby"
+    "eluminapp"
   ],
   "license": "MIT",
   "scripts": {
@@ -46,9 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/dalvaradotey/eluminapp"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dalvaradotey/eluminapp/issues"
   }
 }

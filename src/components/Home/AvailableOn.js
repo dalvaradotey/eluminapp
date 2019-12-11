@@ -1,7 +1,7 @@
 import React from 'react';
 
-import AppStoreSVG from '../../../assets/app-store.svg'
-import PlayStoreSVG from '../../../assets/play-store.svg'
+import AppStoreSVG from '../../../assets/app-store.svg';
+import PlayStoreSVG from '../../../assets/play-store.svg';
 
 const AvailableOn = () => (
   <div className="tc mt4">

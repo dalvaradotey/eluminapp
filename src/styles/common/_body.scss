@@ -8,3 +8,9 @@ body {
 .logo-font {
   font-family: 'Pacifico', cursive;
 }
+
+input[type=text] {
+  border: 2px solid $color-purple;
+  border-radius: 4px;
+  padding: 12px 20px;
+}

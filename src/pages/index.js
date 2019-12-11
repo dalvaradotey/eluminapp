@@ -10,6 +10,9 @@ import ClipSVG from '../../assets/clip.svg'
 const IndexPage = () => (
   <Fragment>
     <Helmet>
+      <title>Eluminapp - ¡Enseña y aprende lo que quieras!</title>
+      <meta name="theme-color" content="#FBBD0E"></meta>
+      <meta name="description" content="Aquí puedes compartir tus conocimientos con otras personas y también aprender cosas nuevas."></meta>
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"></link>
     </Helmet>
