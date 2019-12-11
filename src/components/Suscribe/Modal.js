@@ -45,7 +45,7 @@ class Modal extends Component {
     <ModalRoutingContext.Consumer>
       {({ modal, closeTo }) => (
         <div>
-          <div className="tc mt6">
+          <div className="tc mt3 mt6-ns">
             <h3 className="f1 logo-font normal mt0">eluminapp</h3>
             <p className="mt1 mb0">Si estás interesado en enseñar o aprender,</p>
             <p className="mt1 mb4">ingresa tu email y te mantendremos informado.</p>

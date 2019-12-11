@@ -16,7 +16,7 @@ const IndexPage = () => (
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"></link>
     </Helmet>
-    <div className="yellow--bg tc pt5 pb4" style={{ clipPath: "url(#tsClipPath)" }}>
+    <div className="yellow--bg tc pt5 pb6 pb4-ns" style={{ clipPath: "url(#tsClipPath)" }}>
       <Hero />
       <KnowMore />
       <AvailableOn />
