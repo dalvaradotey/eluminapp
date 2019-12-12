@@ -14,3 +14,9 @@ input[type=text] {
   border-radius: 4px;
   padding: 12px 20px;
 }
+
+@media (max-width: 30em) {
+  .max-w {
+    width: 100%;
+  }
+}

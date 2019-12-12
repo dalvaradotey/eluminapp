@@ -60,7 +60,7 @@ class Modal extends Component {
                 render={({ errors, status, touched, isSubmitting }) => (
                   <Form aria-labelledby="cyber-form-title" id="cyber-form" className="mt4 grid-cyber__form">
                     <Field
-                      className="mt1 br1 b--light-blue b--solid bw1 pa1"
+                      className="mt1 br1 b--light-blue b--solid bw1 pa1 max-w"
                       type="text"
                       name="email"
                       id="email"
@@ -69,7 +69,7 @@ class Modal extends Component {
                     <ErrorMessage name="email" component="div" className="mt3 red" />
                     <div>
                       <button
-                        className="btn grow br-pill purple--bg bn pv3 ph4 white ma3"
+                        className="btn grow br-pill purple--bg bn pv3 ph4 white mv3 max-w"
                         type="submit"
                         disabled={isSubmitting}
                       >
